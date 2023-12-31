@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Righteous&display=swap");
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url("hotel-outlook\ image.jpg") center/cover no-repeat;
+}
+.nav_head {
+  background: linear-gradient(to right, #000000 70%, rgb(34, 138, 236) 100%);
+  margin-bottom: 5px;
+  border: gold;
+  border-radius: 5px;
+}
+.head-book {
+  padding-left: 80%;
+  font-family: Electrolize;
+  justify-content: space-between;
+}
+.details {
+  width: 40%;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 20px;
+  border-color: gold;
+  border-bottom: none;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  /* border-radius: 20px; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  background-image: url("Form_wallpaper.jpg");
+  background-size: cover;
+  align-items: center;
+  text-decoration: underline;
+  font-family: Electrolize;
+  color: gold;
+}
+.amount {
+  width: 40%;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 20px;
+  border-top: none;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+  border-color: gold;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  background-color: black;
+}
+.message {
+  width: 60%;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  margin-bottom: 0px;
+  padding: 0%;
+  /* height: 50px; */
+  background-color: rgb(129, 0, 0);
+  color: white;
+}
+.book_labels {
+  display: inline-block;
+  border: 2px solid black;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  text-align: center;
+  font-family: Electrolize;
+  font-weight: bold;
+  color: black;
+  background: rgb(219, 187, 3);
+  align-items: center;
+}
+/* .err {
+  background-image: url("hotel-outlook\ image.jpg") !important;
+  background: cover;
+} */

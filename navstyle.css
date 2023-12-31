@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Righteous&display=swap");
+nav {
+  background: linear-gradient(to right, #000000 30%, gold 100%);
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 0;
+  transition: all;
+}
+
+nav > div {
+  font-size: 20px;
+  font-weight: bolder;
+  color: gold;
+}
+.navcontent {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  position: relative;
+  color: gold;
+  justify-content: space-evenly;
+}
+.navcontent:hover {
+  text-decoration: #ccff99 underline;
+}
+a {
+  color: gold;
+}
+.navcontent div {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.navcontent div:hover {
+  color: rgb(0, 247, 33);
+}

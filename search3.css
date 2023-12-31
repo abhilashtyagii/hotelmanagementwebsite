@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Electrolize&family=Righteous&family=Rubik:wght@500;600&family=Source+Serif+Pro:wght@200;400&family=Yanone+Kaffeesatz:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.head-head {
+  background: linear-gradient(to right, #000000 70%, rgb(44, 138, 226) 100%);
+}
+.hed-book {
+  padding-left: 89%;
+  font-family: Electrolize;
+  justify-content: space-evenly;
+}
+.book-form {
+  display: block;
+}
+.error_message {
+  width: 60%;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 10px;
+  margin-bottom: 0px;
+  padding: 0%;
+  height: 50px;
+  background-color: rgb(129, 0, 0);
+  color: white;
+}
+.flexbox {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)),
+    url("search.jpg") center/cover no-repeat;
+  background-size: auto;
+  background-size: 2000px 765px;
+  /* background: linear-gradient(155deg, #55c7ed, #2bb3e0, #3bc1ed); */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search {
+  margin: 20px;
+}
+
+.search > h3 {
+  font-weight: normal;
+}
+
+.search > h1,
+.search > h3 {
+  color: white;
+  margin-bottom: 15px;
+  font-family: "Courgette", cursive;
+  /* text-shadow: 0 1px #171718; */
+}
+
+.search > div {
+  display: inline-block;
+  position: relative;
+  filter: drop-shadow(0 1px white);
+}
+input {
+  width: 40%;
+  border: 3px solid gold;
+  padding: 20px;
+  font-size: medium;
+  font-family: Electrolize;
+  color: white;
+  background-color: transparent;
+  border-radius: 15px;
+  margin-bottom: 0px;
+}
+.search > div:after {
+  content: "";
+  background: white;
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  top: 40px;
+  right: 2px;
+  transform: rotate(135deg);
+}
+
+.search > div > input {
+  color: white;
+  font-size: 16px;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border: solid 3px white;
+  outline: none;
+  border-radius: 35px;
+  transition: width 0.5s;
+}
+
+.search > div > input::placeholder {
+  color: #fff9f9;
+  opacity: 0;
+  /* transition: opacity 150ms ease-out; */
+}
+
+/* .search > div > input:focus::placeholder {
+  opacity: 0;
+} */
+
+/* .search > div > input:focus,
+.search > div > input:not(:placeholder-shown) {
+  width: 250px;
+} */
